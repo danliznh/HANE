@@ -13,15 +13,15 @@
 
 #elif defined(Linux) || defined(linux)|| defined(__linux) || \
 	defined(SuSE) || defined(suse) || defined(SuSe) // Linux, SuSE platform
-#define DAN_LINUX
+#define HANE_LINUX
 #elif defined(sun) || defined(SUN) || defined(__sun) || defined(SOLARIS) || \
 	defined(SUN_UNIX) || defined(_SUN_UNIX)      // the SUN Unix
-#define DAN_SOLARIS
+#define HANE_SOLARIS
 #elif defined(aix) || defined(AIX) || defined(_AIX) || defined(ibm) || defined(IBM)
-#define DAN_AIX       // the IBM Unix(AIX)
+#define HANE_AIX       // the IBM Unix(AIX)
 #elif defined(__hpux) ||defined(hpux) ||defined(HPUX) ||defined(_HPUX) || \
 	defined(HP_UX) || defined(_HP_UX)  // the HP Unix
-#define  DAN_HP_UNIX
+#define HANE_HP_UNIX
 #else
 #error Sorry, the platform is not support
 #endif
