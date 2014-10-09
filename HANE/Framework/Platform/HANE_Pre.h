@@ -23,7 +23,7 @@
 	defined(HP_UX) || defined(_HP_UX)  // the HP Unix
 #define  DAN_HP_UNIX
 #else
-	#error Sorry, the platform is not support
+#error Sorry, the platform is not support
 #endif
 
 #if !defined(__cplusplus) 
