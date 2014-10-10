@@ -65,9 +65,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Framework\Common\HANE_NonCopyable.h" />
+    <ClInclude Include="..\..\Framework\Platform\HANE_MacroDefine.h" />
+    <ClInclude Include="..\..\Framework\Platform\HANE_MakeMacro.h" />
     <ClInclude Include="..\..\Framework\Platform\HANE_Pre.h" />
     <ClInclude Include="..\..\Framework\Platform\HANE_Type.h" />
-    <ClInclude Include="HANE_MakeMacro.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

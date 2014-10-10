@@ -39,7 +39,10 @@
     <ClInclude Include="..\..\Framework\Platform\HANE_Type.h">
       <Filter>Framework\Platform</Filter>
     </ClInclude>
-    <ClInclude Include="HANE_MakeMacro.h">
+    <ClInclude Include="..\..\Framework\Platform\HANE_MacroDefine.h">
+      <Filter>Framework\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Framework\Platform\HANE_MakeMacro.h">
       <Filter>Framework\Platform</Filter>
     </ClInclude>
   </ItemGroup>
