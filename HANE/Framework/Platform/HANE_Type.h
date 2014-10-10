@@ -6,6 +6,7 @@
   * and the system using our library need to use the types we defined.
   */
 
+#include "HANE_MakeMacro.h"
 #include "HANE_Pre.h"
 
 #include <iostream>
