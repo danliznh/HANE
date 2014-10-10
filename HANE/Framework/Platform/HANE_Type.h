@@ -23,6 +23,7 @@ using namespace std;
 #include <unistd.h>
 #include <fcntl.h>
 #include <time.h>
+#include <sys/types.h>
 #endif
 
 /// the following lines will define the Data Type
@@ -58,5 +59,22 @@ typedef int BOOL
 #define NULL ((void*)&0)
 #endif
 /*************Data Type AREA End***************************************************/
+
+
+
+#if defined HANE_HAS_POLL
+#include <poll.h>
+#endif
+
+
+#if defined HANE_HAS_EPOLL
+#include <sys/epoll.h>
+#endif
+
+#if defined HANE_HAS_SELECT
+#ifndef WIN32
+#include <sys/select.h>
+#endif
+#endif
 
 #endif // !HANE_TYPE_H__
