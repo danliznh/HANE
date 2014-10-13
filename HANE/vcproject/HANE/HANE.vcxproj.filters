@@ -45,5 +45,18 @@
     <ClInclude Include="..\..\Framework\Platform\HANE_MakeMacro.h">
       <Filter>Framework\Platform</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Framework\Net\HANE_Addr.h">
+      <Filter>Framework\Net</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Framework\Net\HANE_Addr.inl">
+      <Filter>Framework\Net</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Framework\Net\HANE_Addr.cpp">
+      <Filter>Framework\Net</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
