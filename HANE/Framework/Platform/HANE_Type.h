@@ -42,6 +42,8 @@ typedef void*                   LPVOID;
 typedef signed __int64          INT64_t;
 typedef unsigned __int64        UINT64_t;
 
+typedef unsigned long           HASH_t;
+
 #if !defined(BOOL)
 typedef int BOOL
 #endif
