@@ -45,7 +45,7 @@ typedef unsigned __int64        UINT64_t;
 typedef unsigned long           HASH_t;
 
 #if !defined(BOOL)
-typedef int BOOL
+typedef int BOOL;
 #endif
 
 #if !defined(TRUE)
