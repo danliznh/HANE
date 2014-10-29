@@ -9,7 +9,7 @@
 #define HANE_LACKS_PRAGMA_ONCE 1
 
 // the windows platform
-#ifdef WIN32
+#if defined WIN32
 
 #elif defined(Linux) || defined(linux)|| defined(__linux) || \
     defined(SuSE) || defined(suse) || defined(SuSe) // Linux, SuSE platform

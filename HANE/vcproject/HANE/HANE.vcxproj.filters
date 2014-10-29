@@ -48,6 +48,9 @@
     <ClInclude Include="..\..\Framework\Net\HANE_Addr.h">
       <Filter>Framework\Net</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Framework\Thread\HANE_Runnable.h">
+      <Filter>Framework\Thread</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\Framework\Net\HANE_Addr.inl">
@@ -57,6 +60,9 @@
   <ItemGroup>
     <ClCompile Include="..\..\Framework\Net\HANE_Addr.cpp">
       <Filter>Framework\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Framework\Thread\HANE_Runnable.cpp">
+      <Filter>Framework\Thread</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

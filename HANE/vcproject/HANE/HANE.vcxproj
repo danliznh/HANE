@@ -44,6 +44,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -70,12 +71,14 @@
     <ClInclude Include="..\..\Framework\Platform\HANE_MakeMacro.h" />
     <ClInclude Include="..\..\Framework\Platform\HANE_Pre.h" />
     <ClInclude Include="..\..\Framework\Platform\HANE_Type.h" />
+    <ClInclude Include="..\..\Framework\Thread\HANE_Runnable.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\Framework\Net\HANE_Addr.inl" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Framework\Net\HANE_Addr.cpp" />
+    <ClCompile Include="..\..\Framework\Thread\HANE_Runnable.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
